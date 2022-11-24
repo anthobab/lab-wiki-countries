@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -35,4 +35,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App .col-5 {
+  max-height: 90vh;
+  overflow: scroll;
+  text-align: left;
 }
